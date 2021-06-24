@@ -1,0 +1,22 @@
+var word = "lines";
+var count = 99;
+while (count > 0) {
+  if (count == 1){
+    var word = "line"
+  }
+    console.log(count + " " + word + " of code in the file");
+    console.log(count + " " + word + " of code,");
+    console.log("Brandon takes one out, moves it on out,");
+    count = count - 1;
+    if (count > 0) {
+      if (count == 1){
+        var word = "line"
+      }
+        console.log(count + " " + word + " of code in the file.");
+    } else {
+      if (count < 1){
+        var word = "lines"
+      }
+        console.log("No more " + word + " of code in the file.");
+    }
+}
