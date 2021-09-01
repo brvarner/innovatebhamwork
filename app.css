@@ -1,13 +1,29 @@
-.h1{
-    color:coral
+h1{
+    color:coral;
+    font-style:italic;
+    text-decoration: underline;
 }
 
 input, label, button {
     display:block;
 }
 
+.text-center{
+    text-align: center;
+}
+
+form{
+    box-shadow: 9px 5px 9px 0px rgba(0,0,0,0.75);
+    margin: 0 auto;
+    padding: 1em;
+    width: 150px;
+    border: 3px solid black;
+}
+
 body {
+    font-family: Lato, sans-serif;
     margin:0
+    background: url(../media/SergeyFlowers.jpg);
 }
 
 main{
@@ -16,5 +32,8 @@ main{
 
 button{
     margin: 1em 0;
-    padding: 1em;
+}
+
+hr{
+    width: 10%;
 }
