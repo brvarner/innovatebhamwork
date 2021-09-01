@@ -1,3 +1,20 @@
-.first-header{
+.h1{
     color:coral
+}
+
+input, label, button {
+    display:block;
+}
+
+body {
+    margin:0
+}
+
+main{
+    margin: left 3em;
+}
+
+button{
+    margin: 1em 0;
+    padding: 1em;
 }
