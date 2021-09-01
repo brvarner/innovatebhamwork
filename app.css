@@ -2,10 +2,16 @@ h1{
     color:coral;
     font-style:italic;
     text-decoration: underline;
+    font-size: 5em;
 }
 
 input, label, button {
     display:block;
+}
+
+label{
+    font-size: 2em;
+    text-align: left;
 }
 
 .text-center{
@@ -15,15 +21,18 @@ input, label, button {
 form{
     box-shadow: 9px 5px 9px 0px rgba(0,0,0,0.75);
     margin: 0 auto;
-    padding: 1em;
+    padding: 7em 7em 7em 7em;
     width: 150px;
     border: 3px solid black;
+    background-image: url(./media/SergeyFlowers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
     font-family: Lato, sans-serif;
     margin:0;
-    background: url(../media/SergeyFlowers.jpg);
+
 }
 
 main{
@@ -36,4 +45,5 @@ button{
 
 hr{
     width: 10%;
+    color: black;
 }
